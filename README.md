@@ -29,6 +29,7 @@ Flowplayer支持播放flv、swf等流媒体以及图片文件，能够非常流�
 <script type="text/javascript"> 
 flowplayer("player", "flowplayer-3.2.7.swf"); 
 </script> 
+
 使用flowplayer()函数调用播放器，第一个参数是播放器的id，第二个参数是播放器的路径，它是一个flash文件，一定要保证播放器的路径正确。
 
 如果不是使用a标签调用视频文件，而是使用DIV来调用，则代码如下：
@@ -43,6 +44,9 @@ flowplayer(
       } 
     } 
 ); 
+
 flowplayer()函数的第三个参数是可以进行多项设置的，其实就是高级设置。clip方法里的url：表示视频文件的真实地 址，autoPlay：表示是否自动播放，默认是true，autoBuffering：表示是否自动缓冲，即当视频文件设置为不自动播放时，播放器仍然 预先下载视频文件内容。
 
-flowplayer还支持播放列表，以及皮肤设置等多项高级设置，具体设置方法，感兴趣的同学可以请访问：http://flowplayer.org/documentation/configuration/index.html。
+flowplayer还支持播放列表，以及皮肤设置等多项高级设置，具体设置方法，感兴趣的同学可以请访问：
+
+http://flowplayer.org/documentation/configuration/index.html。
